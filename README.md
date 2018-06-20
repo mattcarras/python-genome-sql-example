@@ -14,6 +14,7 @@ Based on code from: http://genomewiki.ucsc.edu/index.php/Finding_nearby_genes
 Edit the variables between # CONFIGURE BELOW and # END CONFIG
 
 ## Example output
+<pre>
 closest 10 upstream transcripts from chr1:991973-991973 in hg19 for refGene set
 Note: for reverse - strand items, txEnd is the 5' end, the transcription start site
 +-------+---------+--------+--------+-----------------------------+------------+
@@ -66,4 +67,4 @@ Note: for reverse - strand items, txStart is the 3' end, NOT the transcription s
 +-------+---------+---------+--------+----------------------------+------------+
 | chr1  | 1109285 | 1133313 |   +    |        NM_001130045        |   TTLL10   |
 +-------+---------+---------+--------+----------------------------+------------+
-
+</pre>
